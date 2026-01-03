@@ -1,0 +1,1 @@
+# ty-pre-commit
