@@ -1,0 +1,10 @@
+- id: ty-check
+  name: ty-check
+  description: "Run 'ty check' for Python type checking"
+  entry: uv run ty check --force-exclude
+  language: system
+  types_or: [python, pyi, jupyter]
+  args: []
+  require_serial: true
+  additional_dependencies: []
+  minimum_pre_commit_version: "3.4.0"
