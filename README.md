@@ -7,7 +7,7 @@ Add this hook to your `.pre-commit-config.yaml`:
 ```yaml
 repos:
 - repo: https://github.com/narumiruna/ty-pre-commit
-  rev: v0.0.1a1
+  rev: v0.0.1a2a1
   hooks:
     - id: ty-check
 ```
