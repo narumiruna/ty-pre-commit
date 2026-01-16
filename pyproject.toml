@@ -1,4 +1,4 @@
 [project]
 name = "ty-pre-commit"
 version = "0.0.0"
-dependencies = ["ty==0.0.1a30"]
+dependencies = ["ty==0.0.1a31"]
