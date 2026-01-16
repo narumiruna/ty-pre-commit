@@ -1,7 +1,7 @@
 - id: ty-check
   name: ty-check
   description: "Run 'ty check' for Python type checking"
-  entry: uv run ty check
+  entry: ty check --force-exclude
   language: system
   types_or: [python, pyi, jupyter]
   args: []
